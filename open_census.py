@@ -352,7 +352,7 @@ def main():
             f = open("documentation.html","w")
             f.write(createDocumentation(G))
             f.close()
-            print "[TEST] documentacion generada como \"%s\"" % "documentation.html"
+            print "[TEST] documentacion generada como \"documentation.html\""
 
 if __name__ == '__main__':
     main()
